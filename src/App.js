@@ -1,14 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
+  const styles = {
+    border: '0px',
+    padding: 0,
+    width: '100%',
+    height: '100%',
+    overflow: 'hidden',
+    backgroundColor: 'transparent'
+  };
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -17,6 +22,12 @@ function App() {
         >
           Learn React with apmplify
         </a>
+        <iframe
+          title="a"
+          data-aa="1788631"
+          src="//acceptable.a-ads.com/1788631"
+          style={{ styles }}
+        ></iframe>
       </header>
     </div>
   );
