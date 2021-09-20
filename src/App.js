@@ -22,12 +22,16 @@ function App() {
         >
           Learn React with apmplify
         </a>
-        <iframe
-          title="a"
-          data-aa="1788631"
-          src="//acceptable.a-ads.com/1788631"
-          style={{ styles }}
-        ></iframe>
+
+        <div className="clickme">
+          <iframe
+            title="a"
+            data-aa="1788631"
+            src="//acceptable.a-ads.com/1788631"
+            style={{ styles }}
+          ></iframe>
+        </div>
+
       </header>
     </div>
   );
